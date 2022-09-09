@@ -7,7 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // Schemas
 import kindergarden from './kindergarden'
 import school from './school'
-import courses from './courses'
+import afternoonCourse from './afternoonCourse'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -15,6 +15,6 @@ export default createSchema({
   types: schemaTypes.concat([
     kindergarden,
     school,
-    courses
+    afternoonCourse
   ]),
 })

@@ -1,7 +1,7 @@
 import { capacity, courses, day, price } from "../shared";
 
 export default {
-  name: "school",
+  name: "skoly",
   type: "document",
   title: "Školy",
   fields: [
